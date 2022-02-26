@@ -1,6 +1,6 @@
 {
-  "name": "Hugo Book",
-  "short_name": "Hugo Book",
+  "name": "Leetcode Book",
+  "short_name": "Leetcode Book",
   "start_url": "/leetcode_book/",
   "scope": "/leetcode_book/",
   "display": "standalone",
