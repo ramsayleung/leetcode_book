@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/leetcode_book/sw.js",{scope:"/leetcode_book/"})

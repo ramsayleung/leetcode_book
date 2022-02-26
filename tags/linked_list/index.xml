@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>linked_list on Hugo Book</title><link>https://ramsayleung.github.io/leetcode_book/tags/linked_list/</link><description>Recent content in linked_list on Hugo Book</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 15 Feb 2022 22:12:26 +0000</lastBuildDate><atom:link href="https://ramsayleung.github.io/leetcode_book/tags/linked_list/index.xml" rel="self" type="application/rss+xml"/><item><title>61. Rotate List</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/61_rotate_list/</link><pubDate>Tue, 15 Feb 2022 22:12:26 +0000</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/61_rotate_list/</guid><description>1 Description # source: https://leetcode.com/problems/rotate-list/
+Given the head of a linked list, rotate the list to the right by k places.
+Example 1:
+Input: head = [1,2,3,4,5], k = 2 Output: [4,5,1,2,3] Example 2:
+Input: head = [0,1,2], k = 4 Output: [2,0,1] Constraints:
+The number of nodes in the list is in the range [0, 500]. -100 &amp;lt;= Node.val &amp;lt;= 100 0 &amp;lt;= k &amp;lt;= 2 * 10^9 2 Solution # /** * Definition for singly-linked list.</description></item><item><title>141. Linked list cycle</title><link>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</link><pubDate>Tue, 28 Apr 2020 09:04:58 +0000</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</guid><description>1 Description # source: https://leetcode.com/problems/linked-list-cycle/
+Given a linked list, determine if it has a cycle in it.
+To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
+Example 1:
+Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where tail connects to the second node.</description></item></channel></rss>
