@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
 baseURL = 'https://ramsayleung.github.io/leetcode_book'
-title = 'Hugo Book'
+title = 'Leetcode Book'
 theme = 'hugo-book'
 
 # Book configuration
