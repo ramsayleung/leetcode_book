@@ -21,14 +21,6 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      - name: Generate Configuration
-        env:
-          GITALK_CLIENT_ID_PLACEHOLDER: ${{ secrets.GITALK_CLIENT_ID_PLACEHOLDER }}
-          GITALK_CLIENT_SECRET_PLACEHOLDER: ${{ secrets.GITALK_CLIENT_SECRET_PLACEHOLDER }}
-        shell: bash
-        run: |
-          "${GITHUB_WORKSPACE}/config.sh"
-
       - name: Build
         run: hugo --minify
 
