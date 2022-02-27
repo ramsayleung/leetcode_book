@@ -1,10 +1,11 @@
 +++
 title = "61. Rotate List"
 date = 2022-02-15T22:12:26
-lastmod = 2022-02-26T20:11:20+08:00
+lastmod = 2022-02-27T20:07:04+08:00
 tags = ["linked_list"]
 categories = ["linked_list"]
 draft = false
+weight = 61
 toc = true
 +++
 
