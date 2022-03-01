@@ -12,4 +12,8 @@ Given the head of a linked list, rotate the list to the right by k places.
 Example 1:
 Input: head = [1,2,3,4,5], k = 2 Output: [4,5,1,2,3] Example 2:
 Input: head = [0,1,2], k = 4 Output: [2,0,1] Constraints:
-The number of nodes in the list is in the range [0, 500]. -100 &amp;lt;= Node.val &amp;lt;= 100 0 &amp;lt;= k &amp;lt;= 2 * 10^9 2 Solution # /** * Definition for singly-linked list.</description></item></channel></rss>
+The number of nodes in the list is in the range [0, 500]. -100 &amp;lt;= Node.val &amp;lt;= 100 0 &amp;lt;= k &amp;lt;= 2 * 10^9 2 Solution # /** * Definition for singly-linked list.</description></item><item><title>67. Add Binary</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/67_add_binary/</link><pubDate>Tue, 01 Mar 2022 21:03:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/67_add_binary/</guid><description>1 Description # source: https://leetcode.com/problems/add-binary/ Given two binary strings a and b, return their sum as a binary string.
+Example 1:
+Input: a = &amp;#34;11&amp;#34;, b = &amp;#34;1&amp;#34; Output: &amp;#34;100&amp;#34; Example 2:
+Input: a = &amp;#34;1010&amp;#34;, b = &amp;#34;1011&amp;#34; Output: &amp;#34;10101&amp;#34; Constraints:
+1 &amp;lt;= a.length, b.length &amp;lt;= 10^4 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.</description></item></channel></rss>
