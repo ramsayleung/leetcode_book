@@ -2,7 +2,7 @@
 title = "2. Add two number"
 author = ["Ramsay Leung"]
 date = 2020-04-24T21:45:43
-lastmod = 2022-02-27T20:07:12+08:00
+lastmod = 2022-03-01T22:02:05+08:00
 draft = false
 weight = 2
 +++
@@ -91,56 +91,50 @@ Solution in C++:
  */
 class Solution {
 public:
-  ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
-    // Runtime complexity O(n), n = max(l1.size(), l2.size())
-    // Space complexity O(1)
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+	// Runtime complexity O(n), n = max(l1.size(), l2.size())
+	// Space complexity O(1)
 
-    ListNode *result = l1;
-    ListNode *prev = nullptr;
-    int carry = 0;
-    while (l1 && l2) {
-      int add_result = l1->val + l2->val + carry;
-      if (add_result % 10 == add_result) {
-	l1->val = add_result;
-	carry = 0;
-      } else {
-	l1->val = add_result % 10;
-	carry = 1;
-      }
+	ListNode* result = l1;
+	ListNode* prev = nullptr;
+	int carry = 0;
+	while(l1 || l2){
+	    int add_result = 0;
+	    if (l1){
+		add_result += l1 -> val;
+	    }
 
-      prev = l1;
-      l1 = l1->next;
-      l2 = l2->next;
-    }
+	    if (l2){
+		add_result += l2 -> val;
+	    }
+	    add_result += carry;
 
-    if (l1 || l2) {
-      prev->next = (l1 != nullptr ? l1 : l2);
-      ListNode *head = prev->next;
+	    ListNode* head = (l1 != nullptr? l1: l2);
 
-      while (head) {
-	int add_result = head->val + carry;
-	if (add_result % 10 == add_result) {
-	  head->val = add_result;
-	  carry = 0;
-	} else {
-	  head->val = add_result % 10;
-	  carry = 1;
+	    if(add_result % 10 == add_result){
+		head -> val = add_result;
+		carry =0;
+	    }else{
+		head -> val = add_result % 10;
+		carry =1;
+	    }
+
+	    if(!prev){
+		prev = l1;
+	    }else{
+		prev-> next = head;
+		prev = prev -> next;
+	    }
+
+	    l1 = l1 != nullptr? l1 -> next: l1;
+	    l2 = l2 != nullptr? l2 -> next: l2;
 	}
-	prev = head;
-	head = head->next;
-      }
-    } else {
-      if (carry != 0) {
-	prev->next = new ListNode(carry);
+
+	if(carry !=0 ){
+	    prev -> next = new ListNode(carry);
+	}
+
 	return result;
-      }
     }
-
-    if (carry != 0) {
-      prev->next = new ListNode(carry);
-    }
-
-    return result;
-  }
 };
 ```
