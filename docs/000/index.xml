@@ -2,7 +2,13 @@
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 Example:
-Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) Output: 7 -&amp;gt; 0 -&amp;gt; 8 Explanation: 342 + 465 = 807.</description></item><item><title>43. Multiply String</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/43.multiply_strings/</link><pubDate>Tue, 01 Mar 2022 19:27:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/43.multiply_strings/</guid><description>1 Description # source: https://leetcode.com/problems/multiply-strings/ Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) Output: 7 -&amp;gt; 0 -&amp;gt; 8 Explanation: 342 + 465 = 807.</description></item><item><title>24. Swap Nodes in Pairs</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/24_swap_nodes_in_pairs/</link><pubDate>Tue, 22 Mar 2022 09:03:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/24_swap_nodes_in_pairs/</guid><description>1 Description # Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list&amp;rsquo;s nodes (i.e., only nodes themselves may be changed.)
+Example 1:
+Input: head = [1,2,3,4] Output: [2,1,4,3] Example 2:
+Input: head = [] Output: [] Example 3:
+Input: head = [1] Output: [1] Constraints:
+The number of nodes in the list is in the range [0, 100].</description></item><item><title>26. Remove Duplicates from Sorted Array</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/26_remove_duplicates_from_sorted_array/</link><pubDate>Sat, 19 Mar 2022 09:02:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/26_remove_duplicates_from_sorted_array/</guid><description>1 Description # Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result.</description></item><item><title>43. Multiply String</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/43.multiply_strings/</link><pubDate>Tue, 01 Mar 2022 19:27:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/43.multiply_strings/</guid><description>1 Description # source: https://leetcode.com/problems/multiply-strings/ Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
 Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
 Example 1:
 Input: num1 = &amp;#34;2&amp;#34;, num2 = &amp;#34;3&amp;#34; Output: &amp;#34;6&amp;#34; Example 2:
@@ -16,4 +22,12 @@ The number of nodes in the list is in the range [0, 500]. -100 &amp;lt;= Node.va
 Example 1:
 Input: a = &amp;#34;11&amp;#34;, b = &amp;#34;1&amp;#34; Output: &amp;#34;100&amp;#34; Example 2:
 Input: a = &amp;#34;1010&amp;#34;, b = &amp;#34;1011&amp;#34; Output: &amp;#34;10101&amp;#34; Constraints:
-1 &amp;lt;= a.length, b.length &amp;lt;= 10^4 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.</description></item></channel></rss>
+1 &amp;lt;= a.length, b.length &amp;lt;= 10^4 a and b consist only of '0' or '1' characters. Each string does not contain leading zeros except for the zero itself.</description></item><item><title>83. Remove Duplicates from Sorted List</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/83_remove_duplicates_from_sorted_list/</link><pubDate>Tue, 22 Mar 2022 23:19:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/83_remove_duplicates_from_sorted_list/</guid><description>1 Description # source: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+Example 1:
+Input: head = [1,1,2] Output: [1,2] Example 2: Input: head = [1,1,2,3,3] Output: [1,2,3] Constraints:
+The number of nodes in the list is in the range [0, 300]. -100 &amp;lt;= Node.val &amp;lt;= 100 The list is guaranteed to be sorted in ascending order.</description></item><item><title>92. Reverse Linked List II</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</link><pubDate>Wed, 23 Mar 2022 12:52:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</guid><description>1 Description # source: https://leetcode.com/problems/reverse-linked-list-ii/
+Given the head of a singly linked list and two integers left and right where left &amp;lt; right=, reverse the nodes of the list from position left to position right, and return the reversed list.
+Example 1:
+Input: head = [1,2,3,4,5], left = 2, right = 4 Output: [1,4,3,2,5] Example 2:
+Input: head = [5], left = 1, right = 1 Output: [5] Constraints:</description></item></channel></rss>
