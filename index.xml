@@ -26,11 +26,24 @@ Input: a = &amp;#34;1010&amp;#34;, b = &amp;#34;1011&amp;#34; Output: &amp;#34;1
 Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
 Example 1:
 Input: head = [1,1,2] Output: [1,2] Example 2: Input: head = [1,1,2,3,3] Output: [1,2,3] Constraints:
-The number of nodes in the list is in the range [0, 300]. -100 &amp;lt;= Node.val &amp;lt;= 100 The list is guaranteed to be sorted in ascending order.</description></item><item><title>92. Reverse Linked List II</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</link><pubDate>Wed, 23 Mar 2022 12:52:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</guid><description>1 Description # source: https://leetcode.com/problems/reverse-linked-list-ii/
+The number of nodes in the list is in the range [0, 300]. -100 &amp;lt;= Node.val &amp;lt;= 100 The list is guaranteed to be sorted in ascending order.</description></item><item><title>86. Partition List</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/86_partition_list/</link><pubDate>Thu, 24 Mar 2022 21:05:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/86_partition_list/</guid><description>1 Description # source: https://leetcode.com/problems/partition-list/
+Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+You should preserve the original relative order of the nodes in each of the two partitions.
+Example 1:
+Input: head = [1,4,3,2,5,2], x = 3 Output: [1,2,2,4,3,5] Example 2:
+Input: head = [2,1], x = 2 Output: [1,2] Constraints:</description></item><item><title>92. Reverse Linked List II</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</link><pubDate>Wed, 23 Mar 2022 12:52:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</guid><description>1 Description # source: https://leetcode.com/problems/reverse-linked-list-ii/
 Given the head of a singly linked list and two integers left and right where left &amp;lt; right=, reverse the nodes of the list from position left to position right, and return the reversed list.
 Example 1:
 Input: head = [1,2,3,4,5], left = 2, right = 4 Output: [1,4,3,2,5] Example 2:
-Input: head = [5], left = 1, right = 1 Output: [5] Constraints:</description></item><item><title>1721. Swapping Nodes in a Linked List</title><link>https://ramsayleung.github.io/leetcode_book/docs/1700/1721_swapping_nodes_in_a_linked_list/</link><pubDate>Tue, 22 Mar 2022 21:49:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/1700/1721_swapping_nodes_in_a_linked_list/</guid><description>1 Description # source: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/ You are given the head of a linked list, and an integer k.
+Input: head = [5], left = 1, right = 1 Output: [5] Constraints:</description></item><item><title>203. Remove Linked List Elements</title><link>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</link><pubDate>Thu, 24 Mar 2022 21:24:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</guid><description>1 Description # Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+Example 1:
+Input: head = [1,2,6,3,4,5,6], val = 6 Output: [1,2,3,4,5] Example 2:
+Input: head = [], val = 1 Output: [] Example 3:
+Input: head = [7,7,7,7], val = 7 Output: [] Constraints:
+The number of nodes in the list is in the range [0, 10^4].</description></item><item><title>328. Odd Even Linked List</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/328_odd_even_linked_list/</link><pubDate>Thu, 24 Mar 2022 22:01:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/328_odd_even_linked_list/</guid><description>1 Description # source: https://leetcode.com/problems/odd-even-linked-list/ Given the head of a singly linked list, group all the nodes with odd indices together followed by the nodes with even indices, and return the reordered list.
+The first node is considered odd, and the second node is even, and so on.
+Note that the relative order inside both the even and odd groups should remain as it was in the input.
+You must solve the problem in O(1) extra space complexity and O(n) time complexity.</description></item><item><title>1721. Swapping Nodes in a Linked List</title><link>https://ramsayleung.github.io/leetcode_book/docs/1700/1721_swapping_nodes_in_a_linked_list/</link><pubDate>Tue, 22 Mar 2022 21:49:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/1700/1721_swapping_nodes_in_a_linked_list/</guid><description>1 Description # source: https://leetcode.com/problems/swapping-nodes-in-a-linked-list/ You are given the head of a linked list, and an integer k.
 Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
 Example 1:
 Input: head = [1,2,3,4,5], k = 2 Output: [1,4,3,2,5] Example 2:

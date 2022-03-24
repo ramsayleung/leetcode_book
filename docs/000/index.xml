@@ -26,7 +26,12 @@ Input: a = &amp;#34;1010&amp;#34;, b = &amp;#34;1011&amp;#34; Output: &amp;#34;1
 Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
 Example 1:
 Input: head = [1,1,2] Output: [1,2] Example 2: Input: head = [1,1,2,3,3] Output: [1,2,3] Constraints:
-The number of nodes in the list is in the range [0, 300]. -100 &amp;lt;= Node.val &amp;lt;= 100 The list is guaranteed to be sorted in ascending order.</description></item><item><title>92. Reverse Linked List II</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</link><pubDate>Wed, 23 Mar 2022 12:52:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</guid><description>1 Description # source: https://leetcode.com/problems/reverse-linked-list-ii/
+The number of nodes in the list is in the range [0, 300]. -100 &amp;lt;= Node.val &amp;lt;= 100 The list is guaranteed to be sorted in ascending order.</description></item><item><title>86. Partition List</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/86_partition_list/</link><pubDate>Thu, 24 Mar 2022 21:05:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/86_partition_list/</guid><description>1 Description # source: https://leetcode.com/problems/partition-list/
+Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+You should preserve the original relative order of the nodes in each of the two partitions.
+Example 1:
+Input: head = [1,4,3,2,5,2], x = 3 Output: [1,2,2,4,3,5] Example 2:
+Input: head = [2,1], x = 2 Output: [1,2] Constraints:</description></item><item><title>92. Reverse Linked List II</title><link>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</link><pubDate>Wed, 23 Mar 2022 12:52:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/000/92_reverse_linked_list_ii/</guid><description>1 Description # source: https://leetcode.com/problems/reverse-linked-list-ii/
 Given the head of a singly linked list and two integers left and right where left &amp;lt; right=, reverse the nodes of the list from position left to position right, and return the reversed list.
 Example 1:
 Input: head = [1,2,3,4,5], left = 2, right = 4 Output: [1,4,3,2,5] Example 2:

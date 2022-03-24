@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leetcode Book</title><link>https://ramsayleung.github.io/leetcode_book/docs/200/</link><description>Recent content on Leetcode Book</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://ramsayleung.github.io/leetcode_book/docs/200/index.xml" rel="self" type="application/rss+xml"/><item><title>203. Remove Linked List Elements</title><link>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</link><pubDate>Thu, 24 Mar 2022 21:24:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</guid><description>1 Description # Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+Example 1:
+Input: head = [1,2,6,3,4,5,6], val = 6 Output: [1,2,3,4,5] Example 2:
+Input: head = [], val = 1 Output: [] Example 3:
+Input: head = [7,7,7,7], val = 7 Output: [] Constraints:
+The number of nodes in the list is in the range [0, 10^4].</description></item></channel></rss>
