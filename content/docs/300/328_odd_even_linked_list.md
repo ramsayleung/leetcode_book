@@ -2,7 +2,7 @@
 title = "328. Odd Even Linked List"
 author = ["Ramsay Leung"]
 date = 2022-03-24T22:01:00+08:00
-lastmod = 2022-03-24T22:08:04+08:00
+lastmod = 2022-03-24T22:11:38+08:00
 draft = false
 weight = 328
 +++
