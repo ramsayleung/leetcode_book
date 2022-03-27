@@ -35,7 +35,13 @@ Input: head = [2,1], x = 2 Output: [1,2] Constraints:</description></item><item>
 Given the head of a singly linked list and two integers left and right where left &amp;lt; right=, reverse the nodes of the list from position left to position right, and return the reversed list.
 Example 1:
 Input: head = [1,2,3,4,5], left = 2, right = 4 Output: [1,4,3,2,5] Example 2:
-Input: head = [5], left = 1, right = 1 Output: [5] Constraints:</description></item><item><title>203. Remove Linked List Elements</title><link>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</link><pubDate>Thu, 24 Mar 2022 21:24:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</guid><description>1 Description # Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+Input: head = [5], left = 1, right = 1 Output: [5] Constraints:</description></item><item><title>141. Linked list cycle</title><link>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</link><pubDate>Tue, 28 Apr 2020 09:04:58 +0000</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</guid><description>1 Description # source: https://leetcode.com/problems/linked-list-cycle/
+Given a linked list, determine if it has a cycle in it.
+To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
+Example 1:
+Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where tail connects to the second node.</description></item><item><title>143. Reorder List</title><link>https://ramsayleung.github.io/leetcode_book/docs/100/143_reorder_list/</link><pubDate>Sun, 27 Mar 2022 09:55:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/100/143_reorder_list/</guid><description>1 Description # source: https://leetcode.com/problems/reorder-list/ You are given the head of a singly linked-list. The list can be represented as:
+L0 → L1 → … → Ln - 1 → Ln Reorder the list to be on the following form:
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … You may not modify the values in the list&amp;rsquo;s nodes. Only nodes themselves may be changed.</description></item><item><title>203. Remove Linked List Elements</title><link>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</link><pubDate>Thu, 24 Mar 2022 21:24:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/200/203_remove_linked_list_elements/</guid><description>1 Description # Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
 Example 1:
 Input: head = [1,2,6,3,4,5,6], val = 6 Output: [1,2,3,4,5] Example 2:
 Input: head = [], val = 1 Output: [] Example 3:
@@ -47,8 +53,4 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
 Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
 Example 1:
 Input: head = [1,2,3,4,5], k = 2 Output: [1,4,3,2,5] Example 2:
-Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5 Output: [7,9,6,6,8,7,3,0,9,5] Constraints:</description></item><item><title>141. Linked list cycle</title><link>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</link><pubDate>Tue, 28 Apr 2020 09:04:58 +0000</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/100/141_linked_list_cycle/</guid><description>1 Description # source: https://leetcode.com/problems/linked-list-cycle/
-Given a linked list, determine if it has a cycle in it.
-To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
-Example 1:
-Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where tail connects to the second node.</description></item></channel></rss>
+Input: head = [7,9,6,6,7,8,3,0,9,5], k = 5 Output: [7,9,6,6,8,7,3,0,9,5] Constraints:</description></item></channel></rss>

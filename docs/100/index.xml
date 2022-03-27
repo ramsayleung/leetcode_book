@@ -2,4 +2,6 @@
 Given a linked list, determine if it has a cycle in it.
 To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
 Example 1:
-Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where tail connects to the second node.</description></item></channel></rss>
+Input: head = [3,2,0,-4], pos = 1 Output: true Explanation: There is a cycle in the linked list, where tail connects to the second node.</description></item><item><title>143. Reorder List</title><link>https://ramsayleung.github.io/leetcode_book/docs/100/143_reorder_list/</link><pubDate>Sun, 27 Mar 2022 09:55:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/100/143_reorder_list/</guid><description>1 Description # source: https://leetcode.com/problems/reorder-list/ You are given the head of a singly linked-list. The list can be represented as:
+L0 → L1 → … → Ln - 1 → Ln Reorder the list to be on the following form:
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → … You may not modify the values in the list&amp;rsquo;s nodes. Only nodes themselves may be changed.</description></item></channel></rss>
