@@ -2,7 +2,7 @@
 title = "1721. Swapping Nodes in a Linked List"
 author = ["Ramsay Leung"]
 date = 2022-03-22T21:49:00+08:00
-lastmod = 2022-03-23T21:06:00+08:00
+lastmod = 2022-03-27T10:57:43+08:00
 draft = false
 weight = 1721
 +++
@@ -10,6 +10,7 @@ weight = 1721
 ## <span class="section-num">1</span> Description {#description}
 
 source: <https://leetcode.com/problems/swapping-nodes-in-a-linked-list/>
+
 You are given the `head` of a linked list, and an integer `k`.
 
 Return the head of the linked list after **swapping** the values of the `kth` node from the beginning and the `kth` node from the end (the list is **1-indexed**).
@@ -38,6 +39,8 @@ Output: [7,9,6,6,8,7,3,0,9,5]
 
 
 ## <span class="section-num">2</span> Solution {#solution}
+
+{{< figure src="/ox-hugo/1721_swapping_nodes_in_a_linked_list.png" link="/ox-hugo/1721_swapping_nodes_in_a_linked_list.png" >}}
 
 ```c++
 /**

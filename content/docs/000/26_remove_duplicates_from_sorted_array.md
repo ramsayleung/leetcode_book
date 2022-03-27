@@ -2,12 +2,14 @@
 title = "26. Remove Duplicates from Sorted Array"
 author = ["Ramsay Leung"]
 date = 2022-03-19T09:02:00+08:00
-lastmod = 2022-03-19T09:37:28+08:00
+lastmod = 2022-03-27T10:44:49+08:00
 draft = false
 weight = 26
 +++
 
 ## <span class="section-num">1</span> Description {#description}
+
+source: <https://leetcode.com/problems/remove-duplicates-from-sorted-array/>
 
 Given an integer array `nums` sorted in **non-decreasing order**, remove the duplicates in-place such that each unique element appears only **once**. The relative order of the elements should be kept the **same**.
 
@@ -68,21 +70,27 @@ Even though it works, it's not a good solution
 class Solution {
 public:
   int removeDuplicates(vector<int>& nums) {
-    int k = 0;
-    int prev = -101;
-    auto iter = nums.begin();
-    while(iter != nums.end()){
-      if(prev == *iter){
-	nums.erase(iter);
-      }else{
-	k++;
-	prev = *iter;
-	iter ++;
-      }
-
+    if(nums.size() == 0){
+      return 0;
     }
 
-    return k;
+    int prev = -101;
+    auto iter = nums.begin();
+
+    while(iter != nums.end()){
+      if(prev == *iter){
+	std::remove(iter, nums.end(), prev);
+      }
+
+      if(*iter == *(nums.end() - 1)){
+	return iter - nums.begin() + 1;
+      }
+
+      prev = *iter;
+      iter++;
+    }
+
+    return iter - nums.begin() + 1;
   }
 };
 ```
