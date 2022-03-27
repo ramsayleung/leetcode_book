@@ -1,10 +1,11 @@
 +++
 title = "141. Linked list cycle"
 date = 2020-04-28T09:04:58
-lastmod = 2022-02-26T20:32:17+08:00
+lastmod = 2022-03-27T10:16:14+08:00
 tags = ["linked_list"]
 categories = ["linked_list"]
 draft = false
+weight = 141
 toc = true
 +++
 
