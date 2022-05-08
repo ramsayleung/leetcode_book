@@ -13,4 +13,11 @@ We are playing the Guess Game. The game is as follows:
 I pick a number from 1 to n. You have to guess which number I picked.
 Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
 You call a pre-defined API int guess(int num), which returns three possible results:
--1: Your guess is higher than the number I picked (i.</description></item></channel></rss>
+-1: Your guess is higher than the number I picked (i.</description></item><item><title>383. Ransom Note</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</link><pubDate>Sun, 08 May 2022 08:04:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</guid><description>1 Description # source: https://leetcode.com/problems/ransom-note/
+Given two strings ransomNote and magazine, return true if ransomNote can be constructed from magazine and false otherwise.
+Each letter in magazine can only be used once in ransomNote.
+Example 1:
+Input: ransomNote = &amp;#34;a&amp;#34;, magazine = &amp;#34;b&amp;#34; Output: false Example 2:
+Input: ransomNote = &amp;#34;aa&amp;#34;, magazine = &amp;#34;ab&amp;#34; Output: false Example 3:
+Input: ransomNote = &amp;#34;aa&amp;#34;, magazine = &amp;#34;aab&amp;#34; Output: true Constraints:
+1 &amp;lt;= ransomNote.</description></item></channel></rss>
