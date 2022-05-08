@@ -2,7 +2,7 @@
 title = "73. Set Matrix Zeroes"
 author = ["Ramsay Leung"]
 date = 2022-05-08T20:00:00+08:00
-lastmod = 2022-05-08T20:04:57+08:00
+lastmod = 2022-05-08T20:11:32+08:00
 draft = false
 weight = 73
 +++
@@ -17,12 +17,16 @@ You must do it [in place](https://en.wikipedia.org/wiki/In-place_algorithm).
 
 **Example 1**:
 
+{{< figure src="https://assets.leetcode.com/uploads/2020/08/17/mat1.jpg" >}}
+
 ```text
 Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
 Output: [[1,0,1],[0,0,0],[1,0,1]]
 ```
 
 **Example 2**:
+
+{{< figure src="https://assets.leetcode.com/uploads/2020/08/17/mat2.jpg" >}}
 
 ```text
 Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
