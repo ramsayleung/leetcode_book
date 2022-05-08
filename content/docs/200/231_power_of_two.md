@@ -2,7 +2,7 @@
 title = "231. Power of Two"
 author = ["Ramsay Leung"]
 date = 2022-04-10T21:12:00+08:00
-lastmod = 2022-04-11T22:28:04+08:00
+lastmod = 2022-04-17T15:34:51+08:00
 draft = false
 weight = 231
 +++
@@ -52,6 +52,8 @@ Output: false
 class Solution {
 public:
   bool isPowerOfTwo(int n) {
+    // Space complexity: O(33) => O(1)
+    // Time complexity: O(1)
     return std::bitset<33>(n).count() == 1;
   }
 };

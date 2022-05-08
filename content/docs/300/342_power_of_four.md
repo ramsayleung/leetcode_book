@@ -2,7 +2,7 @@
 title = "342. Power of Four"
 author = ["Ramsay Leung"]
 date = 2022-04-14T22:57:00+08:00
-lastmod = 2022-04-16T08:55:51+08:00
+lastmod = 2022-04-17T15:34:48+08:00
 draft = false
 weight = 342
 +++
@@ -50,8 +50,8 @@ Output: true
 class Solution {
 public:
   bool isPowerOfFour(int n) {
-    // Space complexity: O(1)
-    // Time complexity: O(32) -> O(1)
+    // Space complexity: O(33) -> O(1)
+    // Time complexity: O(33) -> O(1)
     std::bitset<33> binary = std::bitset<33>(n);
     if (binary.count() != 1) {
       return false;

@@ -2,7 +2,7 @@
 title = "191. Number of 1 Bits"
 author = ["Ramsay Leung"]
 date = 2022-04-10T20:18:00+08:00
-lastmod = 2022-04-11T22:27:46+08:00
+lastmod = 2022-04-17T15:35:57+08:00
 draft = false
 weight = 191
 +++
@@ -56,6 +56,8 @@ Follow up: If this function is called many times, how would you optimize it?
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
+	// Space complexity: O(32) => O(1)
+	// Time complexity: O(1)
 	std::bitset<32> binary = std::bitset<32>(n);
 	return binary.count();
     }
