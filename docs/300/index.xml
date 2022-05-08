@@ -13,7 +13,12 @@ We are playing the Guess Game. The game is as follows:
 I pick a number from 1 to n. You have to guess which number I picked.
 Every time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.
 You call a pre-defined API int guess(int num), which returns three possible results:
--1: Your guess is higher than the number I picked (i.</description></item><item><title>383. Ransom Note</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</link><pubDate>Sun, 08 May 2022 08:04:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</guid><description>1 Description # source: https://leetcode.com/problems/ransom-note/
+-1: Your guess is higher than the number I picked (i.</description></item><item><title>378. Kth Smallest Element in a Sorted Matrix</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/378_kth_smallest_element_in_a_sorted_matrix/</link><pubDate>Fri, 29 Apr 2022 22:55:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/378_kth_smallest_element_in_a_sorted_matrix/</guid><description>1 Description # source: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+Given an n x n matrix where each of the rows and columns is sorted in ascending order, return the k^th smallest element in the matrix.
+Note that it is the k^th smallest element in the sorted order, not the k^th distinct element.
+You must find a solution with a memory complexity better than O(n^2).
+Example 1:
+Input: matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8 Output: 13 Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15], and the 8th smallest number is 13 Example 2:</description></item><item><title>383. Ransom Note</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</link><pubDate>Sun, 08 May 2022 08:04:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/383_ransom_note/</guid><description>1 Description # source: https://leetcode.com/problems/ransom-note/
 Given two strings ransomNote and magazine, return true if ransomNote can be constructed from magazine and false otherwise.
 Each letter in magazine can only be used once in ransomNote.
 Example 1:
