@@ -25,4 +25,10 @@ Example 1:
 Input: ransomNote = &amp;#34;a&amp;#34;, magazine = &amp;#34;b&amp;#34; Output: false Example 2:
 Input: ransomNote = &amp;#34;aa&amp;#34;, magazine = &amp;#34;ab&amp;#34; Output: false Example 3:
 Input: ransomNote = &amp;#34;aa&amp;#34;, magazine = &amp;#34;aab&amp;#34; Output: true Constraints:
-1 &amp;lt;= ransomNote.</description></item></channel></rss>
+1 &amp;lt;= ransomNote.</description></item><item><title>386. Lexicographical Numbers</title><link>https://ramsayleung.github.io/leetcode_book/docs/300/386_lexicographical_numbers/</link><pubDate>Fri, 27 May 2022 20:51:00 +0800</pubDate><guid>https://ramsayleung.github.io/leetcode_book/docs/300/386_lexicographical_numbers/</guid><description>1 Description # source: https://leetcode.com/problems/lexicographical-numbers/
+Given an integer n, return all the numbers in the range [1, n] sorted in lexicographical order.
+You must write an algorithm that runs in O(n) time and uses O(1) extra space.
+Example 1:
+Input: n = 13 Output: [1,10,11,12,13,2,3,4,5,6,7,8,9] Example 2:
+Input: n = 2 Output: [1,2] Constraints:
+1 &amp;lt;= n &amp;lt;= 5 * 10^4 2 Solution # #include &amp;lt;vector&amp;gt;class Solution { public: vector&amp;lt;int&amp;gt; lexicalOrder(int n) { // Time complexity: O(N) // space complexity: O(1) int upper = std::min(9, n); std::vector&amp;lt;int&amp;gt; result; for (int i = 1; i &amp;lt;= upper; i++) { dfs(i, n, result); } return result; } void dfs(int val, int n, std::vector&amp;lt;int&amp;gt; &amp;amp;result) { if (val &amp;lt;= n) { result.</description></item></channel></rss>
